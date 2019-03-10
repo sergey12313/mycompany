@@ -1,0 +1,12 @@
+@import '../../node_modules/normalize.css/normalize';
+// *{
+//   box-sizing: border-box;
+// }
+@import './variables';
+@import './scaffolding.scss';
+@import './mixins.scss';
+@import './blocks/page';
+@import './blocks/main-header';
+@import './blocks/about-section';
+
+

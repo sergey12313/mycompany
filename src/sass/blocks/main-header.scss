@@ -1,0 +1,118 @@
+.main-header{
+    background-color: #111111;
+}
+.main-header__wraper{
+    @include container()
+}
+.main-header__menu-wraper{
+    display: flex;
+    justify-content:space-between;
+    padding-top:55px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+    
+}
+
+.main-header__logo{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#ffffff;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 16px;
+
+}
+.main-header__burger{
+    display: block;
+    border:none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 0;
+    cursor: pointer;
+    align-items: stretch;
+    &:hover{
+        color:$yellow
+    }
+}
+.main-header__menu{
+    flex-basis: 100%;
+}
+
+.main-header__menu--closed {
+    display:none
+}
+
+.main-header__menu-items{
+    display: flex;
+    
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin:0;
+    margin-bottom: 10px;
+}
+.main-header__menu-item a{
+    text-decoration: none;
+    display: block;
+    color:#ffffff;
+    // line-height: 16px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top:8px;
+    border-bottom: 2px solid  transparent   ;
+    &:hover{
+        border-bottom: 2px solid  $yellow;
+    }
+    
+}
+.main-header__title{
+    padding: 200px 0 410px 0;
+     h1,  p{
+        margin:0;
+        padding: 0;
+        text-align: center;
+    }
+    h1{
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 44px;
+        color: #999999;
+        margin-bottom:10px;
+        span{
+            color:$yellow;
+            font-weight:bold;
+        }
+    }
+    p{
+        font-size: 20px;
+        color:#c3c3c3
+    }
+}
+
+
+@media #{$md-widths}{
+    .main-header__burger{
+        display: none;
+    }
+    .main-header__menu-wraper{
+        flex-wrap: nowrap;
+    
+    }
+    .main-header__menu{
+        display: flex;
+        flex-basis: auto;
+    }
+    .main-header__menu-items{
+        flex-direction: row;
+        flex-basis:auto;
+    }
+    .main-header__menu-item a{
+        margin-left: 37px;
+        padding-top:0
+    }
+}

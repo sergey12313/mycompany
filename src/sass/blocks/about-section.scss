@@ -1,0 +1,17 @@
+.about-section__wraper{
+    @include container();
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+.about-section__item{
+    flex-basis: 100%;
+}
+.about-section__item img{
+    width: 100%;
+}
+@media #{$md-widths}{
+    .about-section__item{
+        flex-basis: 50%;
+    }
+}

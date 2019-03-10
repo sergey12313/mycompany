@@ -1,0 +1,18 @@
+// @custom-media --sm-viewport only screen and (min-width: 576px);
+// @custom-media --md-viewport only screen and (min-width: 768px);
+// @custom-media --lg-viewport only screen and (min-width: 992px);
+// @custom-media --xl-viewport only screen and (min-width: 1200px);
+$sm-min: 576px;
+$md-min: 768px;
+$lg-min: 992px;
+$xl-min: 1200px;
+
+
+$only-sm: "screen and (max-width: 768px)";
+$sm-widths: " screen and (min-width:#{$sm-min})";
+$md-widths: " screen and (min-width:#{$md-min})";
+$lg-widths: " screen and (min-width:#{$lg-min})";
+$lg-widths: " screen and (min-width:#{$xl-min})";
+
+
+$yellow : #fcac45;
