@@ -1,7 +1,5 @@
 @import '../../node_modules/normalize.css/normalize';
-// *{
-//   box-sizing: border-box;
-// }
+
 @import './variables';
 @import './scaffolding.scss';
 @import './mixins.scss';
@@ -11,5 +9,7 @@
 @import './blocks/team-section';
 @import './blocks/works-section';
 @import './blocks/services-section';
+@import './blocks/clients-section';
+@import './blocks/page-footer';
 
 

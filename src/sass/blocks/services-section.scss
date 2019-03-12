@@ -6,12 +6,13 @@
     display: flex;
     flex-wrap: wrap;
     padding-top:100px;
-    padding-bottom:150px;
+    padding-bottom:50px;
     margin-left: -20px;
     margin-right: -20px;
  }
  .services-section__card{
     padding:0 20px;
+    padding-bottom: 50px;
     flex-basis: 100%;
     @media #{$md-widths}{
        flex-basis: 50%;
