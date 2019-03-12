@@ -1,6 +1,7 @@
 
 @mixin container() {
-    width: 320px;
+    width: 80%;
+    min-width: 320px;
     margin:0 auto;
     @media #{$md-widths}{
         width: 740px;
@@ -8,7 +9,11 @@
     @media #{$lg-widths}{
         width: 960px;
     }
+    @media #{$xl-widths}{
+        width: 1150px;
+    }
 }
+
 
 @mixin container-fluid(){
     width: auto;

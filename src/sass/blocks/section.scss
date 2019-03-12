@@ -1,0 +1,40 @@
+.section{
+    background-color: #070707;
+    &--white{
+        background-color: #ffffff;
+        .section__title{
+            color:#222222; 
+        }
+    }
+    span{
+        font-weight: 200;
+    }
+}
+.section__title{
+    text-transform: uppercase;
+    color:#ffffff; 
+    padding:0;
+    padding-top:  100px;
+    margin: 0;
+    text-align: center;
+    font-size: 44px;
+    &:after{
+       content: "";
+       margin: 0 auto;
+       margin-top:20px;
+       display: block;
+       width: 100px;
+       height: 4px;
+       background-color:$yellow;
+    }
+
+} 
+.section__text{
+    padding: 0;
+    margin:0;
+    padding-top:50px;
+    color:#6c6c6c;
+    font-style: italic;
+    line-height: 24px;
+    text-align: center;
+}
