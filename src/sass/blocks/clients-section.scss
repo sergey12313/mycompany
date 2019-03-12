@@ -1,0 +1,28 @@
+.clients-section__wraper{
+    @include container();
+}
+.clients-section__grid{
+    padding-top: 100px;
+    padding-bottom:150px;
+    display: flex;
+    align-items:baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.clients-section__link{
+    padding: 0 8px 50px 8px;;
+    flex-basis: 50%;
+    @media #{$md-widths}{
+        flex-basis: 33%;
+     }
+     @media #{$lg-widths}{
+        flex-basis: 20%;
+    }
+}
+
+.clients-section__link img{
+    height:auto;
+    width: 100%;
+}

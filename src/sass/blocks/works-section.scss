@@ -1,3 +1,25 @@
 .works-section__wraper{
     @include container();
 }
+.works-section__grid{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top:180px;
+    padding-bottom:70px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.works-section__card{
+    padding: 15px;
+    padding-bottom: 30px;
+    flex-basis: 100%;
+    img {
+        width: 100%
+    }
+    @media #{$md-widths}{
+        flex-basis: 33%;
+     }
+     @media #{$lg-widths}{
+        flex-basis: 25%;
+    }
+}

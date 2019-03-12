@@ -1,16 +1,10 @@
-// @custom-media --sm-viewport only screen and (min-width: 576px);
-// @custom-media --md-viewport only screen and (min-width: 768px);
-// @custom-media --lg-viewport only screen and (min-width: 992px);
-// @custom-media --xl-viewport only screen and (min-width: 1200px);
+
 $sm-min: 576px;
 $md-min: 768px;
 $lg-min: 992px;
 $xl-min: 1200px;
 
-// $sm-min: 576px;
-// $md-min: 768px;
-// $lg-min: 1200px;
-// // $xl-min: 1200px;
+
 
 
 $sm-widths: " screen and (min-width:#{$sm-min})";
