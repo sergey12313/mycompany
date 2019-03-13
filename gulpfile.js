@@ -5,7 +5,7 @@ const browserSync = require('browser-sync')
 const minifyCSS = require('gulp-csso');
 browserSync({
     server: {
-        baseDir: 'distr'
+        baseDir: '.'
     },
     notify: false,
 });
@@ -23,7 +23,7 @@ const styles = function styles() {
 
 const browserWatch = function browserWatch() {
     watch("src/sass/**/*.scss", series(styles));
-    watch("distr/*.html").on('change', browserSync.reload);
+    watch("index.html").on('change', browserSync.reload);
 }
 
 
