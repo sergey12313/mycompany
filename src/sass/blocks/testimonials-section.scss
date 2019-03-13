@@ -1,0 +1,25 @@
+.testimonials-section__wraper{
+    @include container();
+}
+.testimonials-section__text{
+    color:#e7e7e7;
+    padding: 100px 10% 51px 10%; 
+    margin:0;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-size:18px;
+    font-weight: 500;
+}
+.testimonials-section__author{
+    text-align: center;
+    color:#b2b2b2;
+    font-size: 18px;
+    margin:0;
+    font-weight: 500;
+    padding: 0;
+    padding-bottom: 170px;
+    span{
+        font-weight: 200;
+    }
+}
