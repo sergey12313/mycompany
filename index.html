@@ -192,6 +192,30 @@
     <section class="section section--white contact-section">
         <div class="contact-section__wraper">
             <h2 class="section__title">contact us</h2>
+            <div class="section__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at
+                asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa
+                tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+            <form class="contact-section__form contact-form" action="post">
+                <fieldset class="contact-form__fieldset contact-form__fieldset--name">
+                    <label class="contact-form__label" for="name">Name <span>*</span></label>
+                    <input class="contact-form__input-text" type="text" required name="name" id="name">
+                </fieldset>
+                <fieldset class="contact-form__fieldset contact-form__fieldset--email">
+                    <label class="contact-form__label" for="email">Email
+                        <span>*</span></label>
+                    <input class="contact-form__input-text" required type="email" name="email" id="email">
+                </fieldset>
+
+                <fieldset class="contact-form__fieldset">
+                    <label class="contact-form__label" for="message">Message
+                        <span>*</span></label>
+                    <textarea class="contact-form__texarea" name="message" id="message" required cols="30"
+                        rows="4"></textarea>
+                </fieldset>
+                <input class="contact-form__submit" type="submit" value="SEND">
+            </form>
         </div>
     </section>
     <footer class="page-footer">

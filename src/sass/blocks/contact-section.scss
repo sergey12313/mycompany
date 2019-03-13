@@ -1,0 +1,11 @@
+.contact-section__wraper{
+    @include container();
+    @media #{$md-widths}{
+        padding:0 10%;
+    }
+}
+
+.contact-section__form{
+    margin-bottom:100px;
+    margin-top: 100px;  
+}
